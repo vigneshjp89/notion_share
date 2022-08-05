@@ -1,0 +1,48 @@
+.btn-primary{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+
+    position: absolute;
+    width: 95px;
+    height: 36px;
+    left: 124px;
+    top: 124px;
+
+    /* coolGray/900 */
+
+    background: #111827;
+    border-radius: 4px;
+}
+.btn-label{
+    width: 39px;
+    height: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    display: flex;
+    align-items: center;
+
+    /* white */
+
+    color: #FFFFFF;
+}
+.share-ico{
+    /* position: absolute; */
+    float: right;
+    /* left: 10%;
+    right: 10%;
+    top: 10%;
+    bottom: 10%; */
+
+/* white */
+
+/* background: #FFFFFF; */
+}

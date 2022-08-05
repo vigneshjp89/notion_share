@@ -1,0 +1,47 @@
+.access-button{
+   box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 9px 7px 11px;
+    gap: 8px;
+    
+    width: 104px;
+    height: 30px;
+    color:#6B7280;
+    border:none;
+    /* white */
+    
+    background: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.ul-item-access{
+    list-style: none;
+    color: #6B7280;
+    background: #D1D5DB;
+}
+.list-popup{
+    width: 150px;
+    margin-top:-10px;
+    padding: 2px 0px;
+    height: max-content;
+    
+    
+}
+.access-div{
+    width: 104px;
+    height: 30px ;
+}
+.access-label{
+    position: absolute;
+}
